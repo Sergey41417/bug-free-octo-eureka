@@ -9,7 +9,7 @@ from aiogram.dispatcher import FSMContext
 from qwerty import inlineKeyboard
 from qwerty import keyboard
 
-TOKEN = "6272279854:AAGnefPcGLerwRzA6MazLU59-CtiPucWV2c"
+TOKEN = ""
 print('e')
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=TOKEN)
