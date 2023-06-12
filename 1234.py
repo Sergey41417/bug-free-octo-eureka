@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import logging
-
+from tkn import TOKEN
 from aiogram import Bot, Dispatcher, executor, types
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.dispatcher import FSMContext
@@ -9,7 +9,7 @@ from aiogram.dispatcher import FSMContext
 from qwerty import inlineKeyboard
 from qwerty import keyboard
 
-TOKEN = ""
+TOKEN = TOKEN
 print('e')
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=TOKEN)
