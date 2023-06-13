@@ -7,7 +7,7 @@ User=sergeylubimov
 Group=sergeylubimov
 
 WorkingDirectory=/Users/sergeylubimov/bug-free-octo-eureka/
-Environment=/Users/sergeylubimov/PycharmProjects/untitled
+Environment="PYTHONPATH=/home/sergeylubimov/bug-free-octo-eureka/"
 ExecStart=/Users/sergeylubimov/bug-free-octo-eureka/.venv/bin/python /Users/sergeylubimov/bug-free-octo-eureka/1234.py
 
 [Install]
