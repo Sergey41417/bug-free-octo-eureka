@@ -6,9 +6,9 @@ After=network.target
 User=sergeylubimov
 Group=sergeylubimov
 
-WorkingDirectory=/Users/sergeylubimov/bug-free-octo-eureka/
+WorkingDirectory=/home/sergeylubimov/bug-free-octo-eureka/
 Environment="PYTHONPATH=/home/sergeylubimov/bug-free-octo-eureka/"
-ExecStart=/Users/sergeylubimov/bug-free-octo-eureka/.venv/bin/python /Users/sergeylubimov/bug-free-octo-eureka/1234.py
+ExecStart=/home/sergeylubimov/bug-free-octo-eureka/.venv/bin/python /home/sergeylubimov/bug-free-octo-eureka/1234.py
 
 [Install]
 WantedBy=multi-user.target
