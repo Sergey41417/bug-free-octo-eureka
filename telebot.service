@@ -1,0 +1,14 @@
+[Unit]
+Description=Telegram Bot
+After=network.target
+
+[Service]
+User=sergeylubimov
+Group=sergeylubimov
+
+WorkingDirectory=/Users/sergeylubimov/tele_bot/
+Environment=/Users/sergeylubimov/PycharmProjects/untitled
+ExecStart=/Users/sergeylubimov/tele_bot/.venv/bin/python /Users/sergeylubimov/PycharmProjects/untitled/1234.py
+
+[Install]
+WantedBy=multi-user.target
